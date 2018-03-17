@@ -40,7 +40,7 @@ The Shiny user interface
 
 R code implements each slider bar and Predict Species button
 
-``` {r, echo=FALSE}
+``` {r}
 library(shiny)
     sidebarPanel(
       sliderInput("s1", label = strong("Sepal Length"), value=5, min=4.3, 
